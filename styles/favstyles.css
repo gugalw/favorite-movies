@@ -36,14 +36,13 @@ body {
 }
 
 .main__genres {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 2.0rem;
     font-family: 'Nabla', cursive;
     text-decoration: none;
 }
 
 .main__genres:hover {
-    font-size: 2.20rem;
+    font-size: 2.10rem;
     padding: 20px;
 }
 
@@ -51,30 +50,17 @@ body {
     padding: 5%;
 }
 
-.action__genre {
+.main__genres2 {
     text-align: center;
     font-family: 'Bungee Spice', cursive;
+    font-size: 2rem;
+    padding: 6%;
 }
 
-.fiction__genre {
-    text-align: center;
-    font-family: 'Bungee Spice', cursive;
+.main__genres2:hover {
+    font-size: 2.10rem;
 }
 
-.heroes__genre {
-    text-align: center;
-    font-family: 'Bungee Spice', cursive;
-}
-
-.games__genre {
-    text-align: center;
-    font-family: 'Bungee Spice', cursive;
-}
-
-.series {
-    text-align: center;
-    font-family: 'Bungee Spice', cursive;
-}
 .main__logos__display {
     display: flex;
     gap: 25px;
