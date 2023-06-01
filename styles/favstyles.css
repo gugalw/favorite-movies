@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: burlywood;
+    box-sizing: border-box;
+
+}
+
+.main__header {
+    text-align: center;
+    padding: 24px;
+    
+}
+
+.main__titulo {
+    color: black;
+}
+.main__movies {
+    padding: 5% 10% 0 10%;
+}
+
+.main__menu__genres {
+    display: flex;
+    gap: 40px;
+}
+
+.main__genres {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.genre__sections {
+    padding: 5%;
+}
+
+.action__genre {
+    text-align: center;
+}
+
+.fiction__genre {
+    text-align: center;
+}
+
+.heroes__genre {
+    text-align: center;
+}
+
+.main__logos__display {
+    display: flex;
+    gap: 25px;
+}
+
+.main__filme__logos {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #025951;
+    padding: 24px;
+    text-align: center;
+    font-size: 0.63rem;
+    font-weight: 400;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
