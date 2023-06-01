@@ -1,3 +1,7 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Foldit:wght@500&family=Nabla&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: burlywood;
+    background: #321E1E;
     box-sizing: border-box;
 
 }
@@ -17,7 +21,9 @@ body {
 }
 
 .main__titulo {
-    color: black;
+    color: yellow;
+    font-family: 'Foldit', cursive;
+    font-size: 5rem;
 }
 .main__movies {
     padding: 5% 10% 0 10%;
@@ -25,13 +31,20 @@ body {
 
 .main__menu__genres {
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    gap: 100px;
 }
 
 .main__genres {
-    color: #000000;
     font-size: 2rem;
     font-weight: 400;
+    font-family: 'Nabla', cursive;
+    text-decoration: none;
+}
+
+.main__genres:hover {
+    font-size: 2.20rem;
+    padding: 20px;
 }
 
 .genre__sections {
@@ -40,16 +53,28 @@ body {
 
 .action__genre {
     text-align: center;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .fiction__genre {
     text-align: center;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .heroes__genre {
     text-align: center;
+    font-family: 'Bungee Spice', cursive;
 }
 
+.games__genre {
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.series {
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
 .main__logos__display {
     display: flex;
     gap: 25px;
@@ -62,12 +87,12 @@ body {
 }
 
 .rodape {
-    color: #000000;
-    background-color: #025951;
+    background-color: #1A120B;
     padding: 24px;
     text-align: center;
     font-size: 0.63rem;
     font-weight: 400;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    font-family: 'Bungee Spice', cursive;
 }

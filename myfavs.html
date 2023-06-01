@@ -9,18 +9,20 @@
 </head>
 <body>
     <header class="main__header">
-        <h1 class="main__titulo">Meus Filmes e Sagas Favoritos</h1>
+        <h1 class="main__titulo">Filmes Sagas e Séries Favoritas</h1>
     </header>
     <main class="main__movies">
         <nav class="main__menu__genres">
-            <a class="main__genres">Ação</a>
-            <a class="main__genres">Ficção Científica</a>
-            <a class="main__genres">Super-heróis</a>
+            <a class="main__genres" href="#generoacao">Ação</a>
+            <a class="main__genres" href="#generoficcao">Ficção Científica</a>
+            <a class="main__genres" href="#generoherois">Super-heróis</a>
+            <a class="main__genres" href="#games">Games</a>
+            <a class="main__genres" href="#series">Séries</a>
         </nav>
 
         <section class="genre__sections">
             <div class="action__genre">
-                <h1>Ação</h1>
+                <h1 id="genereroacao">Ação</h1>
             </div>
             <div class="main__logos__display">
                 <img class="main__filme__logos" src="./assets/Johnwick.jpg" alt="Johnwick">
@@ -32,7 +34,7 @@
             </div>
 
             <div class="fiction__genre">
-                <h1>Ficção Científica</h1>
+                <h1 id="generoficcao">Ficção Científica</h1>
             </div>
             <div class="main__logos__display">
                 <img class="main__filme__logos" src="./assets/interstelar1.jpg" alt="intestelar">
@@ -44,7 +46,7 @@
             </div>
 
             <div class="heroes__genre">
-                <h1>Super-heróis</h1>
+                <h1 id="generoherois">Super-heróis</h1>
             </div>
             <div class="main__logos__display">
                 <img class="main__filme__logos" src="./assets/logan.jpg" alt="logan">
@@ -54,11 +56,17 @@
                 <img class="main__filme__logos" src="./assets/avengers.jpg" alt="avengers">
                 <img class="main__filme__logos" src="./assets/panteranegra.jpg" alt="panteranegra">
             </div>
+            <div class="games__genre">
+                <h1 id="games">Games</h1>
+            </div>
+            <div class="series">
+                <h1 id="series">Séries</h1>
+            </div>
         </section>        
     </main>
 
     <footer class="rodape">
-        <h1>Developed by Gustavo Wiest</h1>
+        <h1>Developed by Gustavo Wiest ©</h1>
     </footer>
 </body>
 </html>
