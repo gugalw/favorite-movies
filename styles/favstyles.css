@@ -10,14 +10,11 @@ body {
     height: 100vh;
     background: #321E1E;
     box-sizing: border-box;
-    background-position: center;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 
 .main__header {
     text-align: center;
-    padding: 5% 0 0 0;   
+    padding: 2% 0 0 0;   
 }
 
 .main__titulo {
@@ -33,10 +30,23 @@ body {
 }
 
 .minions__giphy {
-    height: 22%;
-    width: 22%;
-    border-radius: 40%;
     box-shadow: 0 0 1em yellow, 0 0 0.2em yellow;
+    position: absolute;
+    top: 21.5%;
+    right: 16.5%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.minions__giphy2 {
+    box-shadow: 0 0 1em yellow, 0 0 0.2em yellow;
+    position: absolute;
+    top: 21.5%;
+    left: 16.5%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
 }
 
 .main__menu__genres {
@@ -46,14 +56,14 @@ body {
 }
 
 .main__genres {
-    font-size: 1.50rem;
+    font-size: 1.20rem;
     font-family: 'Bungee Spice', cursive;
     text-decoration: none;
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .main__genres:hover {
-    font-size: 1.60rem;
+    font-size: 1.30rem;
     padding: 20px;
 }
 
@@ -80,8 +90,10 @@ body {
 
 .main__logos__display {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
+    /* position: relative;
+    left: 2%; */
 }
 
 .main__filme__logos {
@@ -99,4 +111,34 @@ body {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     font-family: 'Bungee Spice', cursive;
+    box-shadow: 0 0 1em yellow, 0 0 0.2em yellow;
 }
+
+
+#mySidenav a {
+    position: absolute;
+    left: -115px;
+    transition: 0.03s;
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+    font-family: 'Bungee Spice', cursive;
+    box-shadow: 0 0 1em yellow, 0 0 0.2em yellow;
+}
+  
+#mySidenav a:hover {
+    left: 0;
+}
+  
+#sobre {
+    top: 20px;
+    background-color: black;
+}
+  
+#github {
+    top: 80px;
+    background-color: black;
+}
+  
