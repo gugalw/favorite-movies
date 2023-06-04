@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 
-.minions__giphy {
+/* .minions__giphy {
     box-shadow: 0 0 1em yellow, 0 0 0.2em yellow;
     position: absolute;
     top: 21.5%;
@@ -47,12 +47,12 @@ body {
     width: 15%;
     height: 15%;
     border-radius: 50%;
-}
+} */
 
 .main__menu__genres {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 10%;
 }
 
 .main__genres {
@@ -68,12 +68,10 @@ body {
 }
 
 .genre__sections {
-    padding: 5%;
+    padding: 5% 5% 5% 5%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
 }
 
 .main__genres2 {
@@ -141,4 +139,19 @@ body {
     top: 80px;
     background-color: black;
 }
-  
+
+@media (max-width: 1150px)
+{
+    .main__movies {
+        flex-direction: column;
+        padding: 5%;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .main__menu__genres {
+        padding: 10%;
+    }
+    .genre__sections {
+        width: auto;
+    }
+}
